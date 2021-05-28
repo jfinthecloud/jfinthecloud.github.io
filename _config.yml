@@ -34,6 +34,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Implements remote theme jekyll theme Hamilton
+plugins:
+  - jekyll-remote-theme
+remote_theme: ngzhio/jekyll-theme-hamilton
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
