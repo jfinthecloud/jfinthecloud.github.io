@@ -9,7 +9,7 @@ categories: jekyll
 ---
 Finished setting up my blog. 
 
-I used Jekyll to build the static webiste and hosted on GitHub Pages.
+I used Jekyll to build the static website and hosted on GitHub Pages.
 
 Plans for future posts:
 I need to refresh my data analysis and visualization skills. I will publish posts as I go through the homework and projects from Washington University Data Analytics Boot Camp.
