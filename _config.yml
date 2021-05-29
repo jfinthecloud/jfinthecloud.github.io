@@ -19,12 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Jie in the Cloud
+description: A place where I catalog my learning journey as a developer.
 avatar: logo.png
-author: Jie
+author: Jie Fan
+location: St. Louis, US
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A place where I catalog my learning journey as a developer.
-baseurl: "" # the subpath of your site, e.g. /blog
+# description: >- # this means to ignore newlines until "baseurl:"
+#   A place where I catalog my learning journey as a developer.
+# baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jfinthecloud.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jfstl1
 github_username:  jfinthecloud
@@ -33,11 +35,20 @@ github_username:  jfinthecloud
 theme: minima
 plugins:
   - jekyll-feed
-
-# Implements remote theme jekyll theme Hamilton
-plugins:
   - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 remote_theme: ngzhio/jekyll-theme-hamilton
+paginate: 10
+markdown: kramdown
+toc: true
+
+include:
+  - _pages
+
+permalink: /:year/:month/:day/:title.html
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
