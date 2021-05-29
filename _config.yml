@@ -43,6 +43,7 @@ remote_theme: ngzhio/jekyll-theme-hamilton
 paginate: 10
 markdown: kramdown
 toc: true
+google_analytics: G-RC635Q9ZEZ
 
 include:
   - _pages
