@@ -3,7 +3,7 @@ layout: post
 title:  "Github Pages 教程"
 date:   2021-05-30 17:47:45 -0400
 #last_modified_at:
-lang: [zh-Hans, en]
+lang: zh-Hans
 categories: [jekyll, github]
 tags: 教程
 ---
