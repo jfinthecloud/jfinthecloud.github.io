@@ -19,7 +19,7 @@ tags: 教程
 
 <h3>GitHub Pages 教程：</h3>
 1. 注册 GitHub
-2. 建立仓库(repository).仓库名很重要。必须是 用户名.github.io。比如，我的用户名是 jfinthecloud，我的仓库名是 'jfinthecloud.github.io'。
+2. 建立仓库(repository).仓库名很重要。必须是 用户名.github.io。比如，我的用户名是 jfinthecloud，我的仓库名是 'jfinthecloud.github.io'。这个仓库名就是你的URL。
 3. 进入仓库。点入 Settings。点入 Pages。点入 Choose a Theme。GitHub有12个模板可以选。如果你喜欢其中一个模板，点Select Theme。恭喜！你完成搭建博客啦。
 
 如果看不中这几个模板，Jekyll有不少模板选择，有免费和收费的。Jekyll是什么？是一个博客形态的静态站点生产机器...简单说把纯文本（比如markdown）转换为静态博客网站。
@@ -38,10 +38,10 @@ tags: 教程
 11. gem "github-pages", group: :jekyll_plugins 修改成  gem "github-pages", "~> 214", group: :jekyll_plugins
 12. 保存Gemfile
 13. Terminal导航到仓库文件夹，输入 bundle update
-14. Terminal输入：git add . 
+14. Terminal输入：git add .
 15. Terminal输入：git commit -m 'Initial GitHub pages site with Jekyll'
 16. Terminal输入：git push -u origin gh-pages
-17. 回到GitHub网页，进入仓库，点入Settings， 点入Pages，确认Source branch是gh-pages
+17. 回到GitHub网页，进入仓库，点入Settings， 点入Pages，确认Source branch是gh-pages。
 18. 换Jekyll模板：[Jekyll](https://jekyllthemes.io/)有很多收费和免费选择。创作者提供用法说明书。
 
 <strong>文章的写法</strong>
@@ -64,4 +64,4 @@ tags: tutorial
 2. Terminal输入：bundle exec jekyll serve
 3. 打开浏览器，输入 http://127.0.0.1:4000
 
-
+关键的都应该记录下来了。谢谢观看。目前还没有开通评论功能。还在考虑Disqus。有评论可以来小红书搜索我：Hello樊爷
