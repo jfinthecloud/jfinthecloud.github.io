@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github Pages 教程"
+title:  "GitHub Pages 教程"
 date:   2021-05-30 17:47:45 -0400
 #last_modified_at:
 lang: zh-Hans
@@ -12,19 +12,19 @@ tags: 教程
 
 现在建立博客的选择太多了。研究了一会儿，大概有两类：动态 （dynamic）和 静态（static)。Wordpress是个很受欢迎的动态博客平台。静态网站平台有Netlify, GitHub Pages, Heroku, etc.
 
-为什么我选择GitHub Pages？
+<h3>为什么我选择GitHub Pages？</h3>
 1. 因为熟悉把。Bootcamp期间，作业和portfolio都是用GitHub。
 2. 搭建快！记录笔记的不需要那么多bells and whistles。简单就好。
 3. 免费！
 
-GitHub Pages 教程：
+<h3>GitHub Pages 教程：</h3>
 1. 注册 GitHub
 2. 建立仓库(repository).仓库名很重要。必须是 用户名.github.io。比如，我的用户名是 jfinthecloud，我的仓库名是 'jfinthecloud.github.io'。
 3. 进入仓库。点入 Settings。点入 Pages。点入 Choose a Theme。GitHub有12个模板可以选。如果你喜欢其中一个模板，点Select Theme。恭喜！你完成搭建博客啦。
 
 如果看不中这几个模板，Jekyll有不少模板选择，有免费和收费的。Jekyll是什么？是一个博客形态的静态站点生产机器...简单说把纯文本（比如markdown）转换为静态博客网站。
 
-环境:
+<strong>环境:</strong>
 1. 安装 Git（我用 Git Bash）。我用Windows，Mac可能不需要安装。
 2. 安装 Ruby
 3. 安装 bundler。Terminal输入：gem install bundler
@@ -43,3 +43,25 @@ GitHub Pages 教程：
 16. Terminal输入：git push -u origin gh-pages
 17. 回到GitHub网页，进入仓库，点入Settings， 点入Pages，确认Source branch是gh-pages
 18. 换Jekyll模板：[Jekyll](https://jekyllthemes.io/)有很多收费和免费选择。创作者提供用法说明书。
+
+<strong>文章的写法</strong>
+
+Markdown开头加上一段:
+<pre><code>
+---
+layout: post
+title:  "Title Goes Here"
+date:   2021-05-29 17:47:45 -0400
+last_modified_at: 2021-05-30 17:47:45 -0400
+lang: zh-Hans
+categories: [jekyll, github]
+tags: tutorial
+---
+</code></pre>
+
+<strong>Preview/预览博客</strong>
+1. Terminal输入: bundle install
+2. Terminal输入：bundle exec jekyll serve
+3. 打开浏览器，输入 http://127.0.0.1:4000
+
+
