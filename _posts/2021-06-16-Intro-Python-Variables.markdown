@@ -3,8 +3,8 @@ layout: post
 title:  "Introduction to Python Variables"
 date:   2021-06-16 17:47:45 -0400
 #last_modified_at:
-#lang:
+lang: zh-Hans
 categories: python
-#tags:
+tags: 教程
 ---
 
